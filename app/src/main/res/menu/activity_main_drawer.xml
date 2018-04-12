@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_me"
+            android:icon="@drawable/ic_about_me"
+            android:title="@string/nav_about_me" />
+        <item
+            android:id="@+id/nav_ecperience"
+            android:icon="@drawable/ic_experiance"
+            android:title="@string/nav_experience" />
+        <item
+            android:id="@+id/nav_knowledge"
+            android:icon="@drawable/ic_knowledge"
+            android:title="@string/nav_knowledge" />
+    </group>
+
+    <item android:title="@string/nav_contact_text">
+        <menu>
+            <item
+                android:id="@+id/nav_phone_number"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/nav_phone_number" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email"
+                android:title="@string/nav_email" />
+        </menu>
+    </item>
+
+</menu>

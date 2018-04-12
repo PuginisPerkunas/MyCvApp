@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.a0111010001101111.mypersonalcvv2.EndFragment">
+
+    <TextView
+        android:id="@+id/end_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="@dimen/frag_end_title"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:text="@string/title_end_frag" />
+    <TextView
+        android:id="@+id/end_explain_text"
+        android:layout_below="@+id/end_title"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/frag_end_explain"
+        android:textColor="@color/colorPrimaryTextDefaultMaterialDark"
+        android:textAlignment="center"
+        android:text="@string/explain_end_frag"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/end_explain_text">
+    <LinearLayout
+        android:id="@+id/layout_end_one"
+        android:layout_below="@id/end_explain_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_end_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background"
+                android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="@dimen/frag_end_card_img_w"
+                android:layout_height="@dimen/frag_end_card_img_h"
+                android:background="@drawable/ic_email"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/my_email_text"
+                android:layout_below="@+id/email_icon"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/frag_end_card_title"
+                android:text="@string/info_email"
+                />
+
+            <TextView
+                android:id="@+id/end_frag_email_text"
+                android:layout_below="@+id/my_email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialDark"
+                android:textSize="@dimen/frag_end_card_sub"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:text="@string/my_email"/>
+
+            <Button
+                android:id="@+id/end_email_button"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/end_frag_email_text"
+                android:layout_width="550dp"
+                android:layout_height="65dp"
+                android:background="@drawable/button_background"
+                android:textSize="@dimen/frag_end_card_btn_txt"
+                android:textColor="@android:color/white"
+                android:text="@string/email_button_end_frag"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_end_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="@dimen/frag_end_card_img_w"
+                    android:layout_height="@dimen/frag_end_card_img_h"
+                    android:background="@drawable/ic_phone"
+                    android:layout_margin="5dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:id="@+id/my_phone_text"
+                    android:layout_below="@+id/phone_icon"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/frag_end_card_title"
+                    android:text="@string/info_phone"
+                    />
+
+                <TextView
+                    android:id="@+id/end_frag_phone_text"
+                    android:layout_below="@+id/my_phone_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryTextDefaultMaterialDark"
+                    android:textSize="@dimen/frag_end_card_sub"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:text="@string/my_phone_number"/>
+
+                <Button
+                    android:id="@+id/end_phone_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/end_frag_phone_text"
+                    android:layout_width="550dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/button_background"
+                    android:textSize="@dimen/frag_end_card_btn_txt"
+                    android:textColor="@android:color/white"
+                    android:text="@string/phone_button_end_frag"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_end_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/facebook_icon"
+                    android:layout_width="@dimen/frag_end_card_img_w"
+                    android:layout_height="@dimen/frag_end_card_img_h"
+                    android:background="@drawable/ic_facebook_black"
+                    android:layout_margin="5dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:id="@+id/my_facebook_text"
+                    android:layout_below="@+id/facebook_icon"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/frag_end_card_title"
+                    android:text="@string/info_facebook"
+                    />
+
+                <TextView
+                    android:id="@+id/end_frag_facebook_text"
+                    android:layout_below="@+id/my_facebook_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryTextDefaultMaterialDark"
+                    android:textSize="@dimen/frag_end_card_sub"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:text="@string/my_name_surname"/>
+
+                <Button
+                    android:id="@+id/end_facebook_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/end_frag_facebook_text"
+                    android:layout_width="550dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/button_background"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/frag_end_card_btn_txt"
+                    android:text="@string/facebook_button_end_frag"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

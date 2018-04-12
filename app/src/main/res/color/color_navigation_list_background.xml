@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!--make a gradient background-->
+            <gradient
+                android:type="linear"
+                android:startColor="@color/navStartColor"
+                android:endColor="@color/navStartColor"
+                android:angle="90"
+                android:gradientRadius="90"
+                />
+            <!--apply a border around button-->
+            <stroke android:color="#9b999a" android:width="0dp" />
+            <!-- make the button corners rounded-->
+        </shape>
+    </item>
+</selector>

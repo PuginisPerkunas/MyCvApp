@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skyPurple">#f65bff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="skyBlue">#4b99f2</color>
+    <color name="skyBlueDarker">#4a5df0</color>
+    <color name="colorChecked">#2b70a5</color>
+    <color name="colorUnchecked">#e5e5e5</color>
+    <color name="itemBc">#969696</color>
+    <color name="darkGrayMy">#7c7c7c</color>
+    <color name="grayTextSection">#007eff</color>
+    <color name="navStartColor">#4c4c4c</color>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#070707</color>
+    <color name="navTextDarkPurple">#440d44</color>
+    <color name="navTextDarkBlue">#0c0d44</color>
+    <color name="colorPrimaryTextDefaultMaterialLight">#DE000000</color>
+    <color name="colorSecondaryTextDefaultMaterialLight">#8A000000</color>
+    <color name="colorPrimaryTextDefaultMaterialDark">#FFFFFFFF</color>
+    <color name="colorSecondaryTextDefaultMaterialDark">#B3FFFFFF</color>
+</resources>

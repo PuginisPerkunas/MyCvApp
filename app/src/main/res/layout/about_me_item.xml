@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="10dp"
+        card_view:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/card_background"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What  "
+                android:textSize="24dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:id="@+id/section_text"
+                android:layout_below="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="Siuo  arba praktikos"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

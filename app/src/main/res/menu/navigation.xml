@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_android_studio"
+        android:icon="@drawable/ic_android_studio"
+        android:title="@string/title_android_studio" />
+
+    <item
+        android:id="@+id/nav_react_native"
+        android:icon="@drawable/ic_react_native"
+        android:title="@string/title_react_native" />
+
+    <item
+        android:id="@+id/nav_visual_studio"
+        android:icon="@drawable/ic_visual_studio"
+        android:title="@string/title_visual_studio" />
+
+    <item
+        android:id="@+id/nav_unity"
+        android:icon="@drawable/ic_unity"
+        android:title="@string/title_unity" />
+
+    <item
+        android:id="@+id/nav_github"
+        android:icon="@drawable/ic_github"
+        android:title="@string/title_github" />
+
+</menu>
