@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyPersonalCvV2</string>
-    <string name="about_me_item_five_text">Manau turiu pakankamai potencialo būti naudingas. Jeigu jūs investuosite į mane, pažadu būti pats geriausias jums, likti ir augti kartu su jumis.</string>
+    <string name="about_me_item_five_text">Manau galiu nešti potencialią naudą jūsų įmonei. Jūsų investicija skatintų mane tapti geriausiu, likti ir augti kartu su jumis.</string>
     <string name="about_me_item_five_title">Ką galiu pasiūlyti JUMS</string>
     <string name="nav_experience">Patirtis</string>
     <string name="nav_header_second_text">\"Android\" programų kūrėjas</string>
@@ -9,12 +9,12 @@
     <string name="nav_phone_number">Telefono numeris</string>
     <string name="title_activity_knowledge">Žinios</string>
     <string name="info_email">Mano el. paštas:</string>
-    <string name="visual_frag_explain">" * Done one app with full Google Games Service "</string>
-    <string name="visual_frag_subtitle">" * Played with Vuforia plugin and made fun shooter game"</string>
-    <string name="unity_frag_subtitle">"Patirtis: apie  metai. Pagaminti žaidimai (vienas pilnai pasiekemas Google Play parduotuvėje) "</string>
+    <string name="visual_frag_explain">Turiu nemažai žinių, nes tai buvo mano pirmoji Object Oriented programavimo kalba. Be sunkumų naudoju \"Visual Studio\" ir C#.  \n \t * Turiu realią darbo patirtį su C# \n \t * Žinau ir naudojau: \n \t \t . NET \n \t \t ASP.NET \n \t \t MVC patter  </string>
+    <string name="visual_frag_subtitle">Patirtis apie 1 metus. Sukurtos 5 programos (nepaskelbta, prireikus bus parodyta pokalbio metu)</string>
+    <string name="unity_frag_subtitle">Patirtis: apie 9 mėnesius. Pagaminta žaidimų: 4 (vienas pilnai pasiekiamas \"Google Play\" parduotuvėje)</string>
     <string name="start_second_question">Kur Jūs galite rasti visą informaciją?</string>
-    <string name="start_second_explain">Visa kita galite rasti Meniu skyriuje</string>
-    <string name="start_button_open">Menu</string>
+    <string name="start_second_explain">Visą reikalingą informaciją galite rasti Meniu skyriuje</string>
+    <string name="start_button_open">Meniu</string>
     <string name="phone_button_end_frag">Paskambinkite</string>
     <string name="nav_about_me">Apie mane</string>
     <string name="info_phone">Mano telefono numeris:</string>
@@ -24,14 +24,14 @@
     <string name="frag_about_me">Apie mane</string>
     <string name="facebook_button_end_frag">Pridėkite mane</string>
     <string name="email_button_end_frag">Parašykite</string>
-    <string name="android_frag_explain">Aš naudoju \"Android Studio\" apie 7 mėnesius. Pakomentavo keletą programų, kurias galiu parodyti interviu. Aš žinau, kas yra maketai, adapteriai, vertybių failai ir daug daugiau. Beje, ši programa buvo paguostos. * Sužinok, kaip naudoti grandle * Žinau, kodėl man reikia akivaizdžios * Žinoma apie skirtingų ekranų tinkamumą * Ir daug, daug daugiau</string>
-    <string name="android_frag_subtitle">Patirtis: apie 7 mėnesius. Padarytų aplikacijų skaičius: apie 10 (pilnai užbaigtų)</string>
+    <string name="android_frag_explain">Naudoju \"Android Studio\" apie 7 mėnesius. Sukūriau keletą programų, kurias prireikus galiu parodyti pokalbio metu. Suprantu, kas yra layout, adapter, values failai ir ne tik. Beje, ši programa ir buvo sukurta naudojantis šiuo įrankiu. Labiausiai mėgstu daryti aplikacijas būtent su šiuo IDE. \n \t * Žinau, kaip naudoti gradle \n \t * Suprantu, kodėl reikia manifest failo \n \t * Moku pritaikyti aplikaciją skirtingų ekranų išmatavimams \n \t * Ir daugiau</string>
+    <string name="android_frag_subtitle">Patirtis: apie 7 mėnesius. Padarytų aplikacijų skaičius: virš 10 (pilnai užbaigtų)</string>
     <string name="about_me_item_three_title">Mano SILPNYBĖS</string>
     <string name="about_me_item_four_title">Mano TIKSLAI</string>
     <string name="title_end_frag">Taigi, ar jau nusprendėte?</string>
     <string name="title_end_toolbar">Taigi...</string>
     <string name="explain_end_frag">Manau vis dar turite klausimų man, todėl galite susisiekti su manimi vienu iš šių būdų:</string>
-    <string name="about_me_item_two_text">Visada turiu tikslus, kurie verčia mane judėti tolyn. Man nėra baisu išbandyti naujus ir nežinomus dalykus. Stengiuosi ne tik galvoti apie dalykus, tačiau juos ir atlikti. Mano stipriausia kūrimo pusė - kurti \"Android\" programas, naudojantis \"Android Studio IDE\".</string>
+    <string name="about_me_item_two_text">Visada užsibrėžiu tikslus, kurie verčia mane judėti pirmyn. Nebijau išbandyti save naujoje ir nežinomoje sferoje. Stengiuosi ne tik mąstyti apie darbus, bet juos ir atlikti. Mano stipriausia pusė - kurti \"Android\" programas, naudojantis \"Android Studio IDE\".</string>
     <string name="about_me_item_two_title">Mano STIPRIOJI pusė</string>
     <string name="font_name_qucksand_bold">Scada_Bold.ttf</string>
     <string name="font_name_qucksand_reg">Scada_Regular.ttf</string>
@@ -45,16 +45,22 @@
     <string name="start_main_question">Kodėl aš jums rašau?</string>
     <string name="start_practice">Praktikuotis</string>
     <string name="start_work">Dirbti Jums</string>
-    <string name="nav_contact_text">Susisiek su manimi</string>
+    <string name="nav_contact_text">Susisiekite su manimi</string>
     <string name="nav_email">Mano el. paštas</string>
-    <string name="frag_experience_explain">Šiame skyriuje galite rasti informacijos apie mano patirtį</string>
-    <string name="frag_about_me_explain">Šiame skyriuje galite rasti informacijos apie mane</string>
-    <string name="about_me_item_one_text">Šiuo metu studijuoju VIKO EIF Išmaniųjų įrenginiu technologijas. Laisvalaikiu (ir netik) mokausi kurti Android aplikacijas</string>
-    <string name="about_me_item_three_text">Aš šiek tiek lėtas. Manau, kad tai tik laiko ir patirties klausimas. Turiu teorines žinias apie MVVM, MVC ir panašius šablonus, tačiau dar sunkiai gebu juos įgyvendinti. Silpniausia kūrimo pusė yra \"React Native\".</string>
-    <string name="about_me_item_four_text">Programavimas ir programų kūrimas yra mano pomėgis, todėl darbas kuriame aš galėčiau tai daryti, būtų puikus ir prasmingas, įšukių ir naujų žinių teikiantis laiko leidimas. Tikiuosi būti naudingas ir gauti naudos, kas būtų naudinga visiems. Todėl pagrindinis mano tikslas šiuo metu yra prasmingas darbas galbūt jūsų įmonėje.</string>
-    <string name="about_me_item_six_text">Tikiuosi suprasite, kad dar nesu senior lygio programuotojas, galėsite padėti kai labai to reikės ir leisite aukti kartu su jumis.</string>
-    <string name="experience_explain_one">Atlikau praktika IoT Teltonika akademijoje. Atlikimo laikas - 270 valandų. Turiu tai įrodantį sertifikatą.</string>
-    <string name="experience_explain_two">Studijuodamas turėjau dvi vidines praktikas. Pagrindine mokomasi kalba buvo C#. Taip pat turiu kitokios teorinės medžiagos apie programavimo (dizaino) šablonus, programų atmintį, obijektinį programavima ir panašiai.</string>
-    <string name="experience_explain_three">Turiu patirties naudojant \"Google Play\" konsolę, programų skelbimu Google Play platformoje, programų versijų kontrolevimu.</string>
-    <string name="experience_explain_four">Turiu nedidele \"Google Play\" žaidimų paslaugų patirtį, vienas žaidimas pasiekemas Google Play parduotuvėje.</string>
+    <string name="frag_experience_explain">Šiame skyriuje galite rasti informacija apie mano patirtį</string>
+    <string name="frag_about_me_explain">Šiame skyriuje galite rasti informaciją apie mane</string>
+    <string name="about_me_item_one_text">Šiuo metu studijuoju VIKO EIF Išmaniųjų įrenginių technologijas. Laisvalaikiu (ir ne tik) mokausi kurti Android aplikacijas</string>
+    <string name="about_me_item_three_text">Galiu pasirodyti kiek lėtas, tačiau tai – tik laiko ir patirties klausimas. Turiu teorines žinias apie MVVM, MVC ir panašius šablonus, tačiau dar sunkiai gebu juos įgyvendinti. Silpniausia kūrimo pusė yra \"React Native\".</string>
+    <string name="about_me_item_four_text">Programavimas ir programų kūrimas yra mano pomėgis, todėl darbas, kuris man leistų tobulėti šioje srityje, būtų prasmingas įššūkių ir naujų žinių teikiantis laiko investavimas. Tikiuosi tiek būti naudingas, tiek dirbdamas su jumis gauti naudos pats. Todėl pagrindinis mano tikslas šiuo metu yra darbas, teikiantis naudą įmonei.</string>
+    <string name="about_me_item_six_text">Tikiuosi suprasite, kad dar nesu senior lygio programuotojas, todėl man svarbi jūsų pagalba, juk tik tokiu būdu galėsime tobulėti kartu.</string>
+    <string name="experience_explain_one">Atlikau praktiką IoT Teltonika akademijoje. Atlikimo laikas - 270 valandų. Turiu tai įrodantį sertifikatą.</string>
+    <string name="experience_explain_two">Studijuodamas turėjau dvi vidines praktikas. Pagrindinė mokytasi kalba buvo C#. Taip pat turiu ir kitokių teorinių žinių apie programavimo, dizaino šablonus, programų atmintį, objektinį programavimą ir pan.</string>
+    <string name="experience_explain_three">Turiu patirties naudojant \"Google Play\" konsolę, taip pat su programų skelbimu Google Play platformoje bei programų versijų kontroliavimu.</string>
+    <string name="experience_explain_four">Turiu nedidelę \"Google Play Games Services \" patirtį. Vienas žaidimas jau yra pasiekiamas Google Play parduotuvėje.</string>
+    <string name="github_frag_subtitle">Patirtis: apie 3 mėnesius</string>
+    <string name="github_frag_explain">Nedažnai tenka naudotis, nes įprastai dirbu vienas, tačiau labai norėčiau išmokti daugiau ir prisijungti prie didelių projektų. \n \t * Žinau, kaip įdėti ar klonuoti projektus \n \t * Sunkumai dėl merge konfliktų man nėra didelė problema \n \t * Manau, kad jūs galite padėti man įsitraukti į didesnius projektus...</string>
+    <string name="react_frag_subtitle">Patirtis: apie 2 mėnesius. Ši sritis man vis dar gana nauja.</string>
+    <string name="react_frag_explain">Vis dar esu naujas šiame JavaScript karkase, bet stropiai mokausi ir žinau pagrindinę projektų stuktūrą. \n \t * Nors ir iš lėto, tačiau užbaigiu pradėtus darbus \n \t * Žinau, kaip naudoti NPM \n \t * Mėgstu mokytis šį karkasą</string>
+    <string name="unity_frag_explain">\"Unity\" naudoju nedažnai, tačiau naudodamasis šiuo žaidimų varikliu jaučiuosi puikiai. Žinau, kaip veikia animacijos, kas yra coliders, galiu rašyti skriptus ir priversti žaidimą veikti. \n \t * Sukūriau pilną žaidimą su \"Google\" žaidimų paslaugomis \n \t * Esu naudojęsis Vuforia įrankiu ir sukūręs smagią VR šaudyklę \n \t * Kaip ir daugelis kūrėjų, mėgaujuosi kurdamas naujus žaidimus</string>
 </resources>
+

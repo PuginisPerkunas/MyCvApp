@@ -12,6 +12,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -85,6 +86,8 @@ public class KnowledgeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_knowledge);
         init();
         setListeners();
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         dataStorage = new DataStorage(this);
         mTextMessage.setTypeface(dataStorage.getFontBold());

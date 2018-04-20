@@ -75,21 +75,14 @@
  	 \n \t* Know about difirent screens compability
  	 \n \t* Now have interested learn use MVVM pattern
  	 \n \t* Thinking switch to Kotlin one day (Now still using Java)</string>
-    <string name="react_frag_subtitle">Experiance: about 1 2 months. Madede apps: 3 (not published) </string>
-    <string name="react_frag_explain"> I am very new at this JavaScript framework, but excided to learn it and know basic structure \n \t * Very slow, but usaly can get things done
-    \n \t * Know how to use NPM and add librarys \n \t * Like to learn it</string>
-    <string name="visual_frag_subtitle">Experiance: about 1 years. Madede jobs: 8 (not published and some just to small) </string>
-    <string name="visual_frag_explain"> Have some knowilage becouse it C# was first my Object Oriented programing langue.
-        I enjoy using Visual Studio and this langue, becouse it is preaty simple to me  \n \t * Have real work experiance with it
-     \n \t * Know about:  \n \t \t .NET \n \t \t ASP.NET \n \t \t MVC patter \n If you need more you shuold just ask</string>
-    <string name="unity_frag_subtitle">Experience: about 1 year. Madaded games: 4( one fully accsesible in play store</string>
-    <string name="unity_frag_explain">I using Unity not alot, but having fun when I do games with it. I know how animations works, wath is coliders,
-        can write scripts and make things happen \n \t * Done one app with full Google Games Service \n \t * Played with Vuforia plugin and made fun shooter game
-        \n \t * Like alot developers love create new games</string>
+    <string name="react_frag_subtitle">Experience: about 2 months. Everything still pretty new to me.</string>
+    <string name="react_frag_explain">I am very new at this JavaScript framework, but excided to learn it and know basic structure of project. \\n \\t * Very slow, but usaly can get things done \\n \\t * Know how to use NPM \\n \\t * Like to learn it</string>
+    <string name="visual_frag_subtitle">Experience about 1 year. Made 5 applications (not published, but can show in interview)</string>
+    <string name="visual_frag_explain">"Have some knowledge becouse C# was first my Object Oriented programing langue. I enjoy using Visual Studio and this language, becouse it is preaty and simple to me  \\n \\t * Have real work experiance with it \\n \\t * Know about:  \\n \\t    .NET \\n \\t    ASP.NET \\n \\t    MVC patter "</string>
+    <string name="unity_frag_subtitle">Experience: about 9 months. Made games: 4 (one fully accessible in Google Play Store)</string>
+    <string name="unity_frag_explain">I using Unity not alot, but having fun when I do games with it. I know how animations works, whath is coliders, can write scripts and basicly make things work. \\n \\t * Done one app with full Google Games Service \\n \\t * Played with Vuforia plugin and made fun VR shooter game \\n \\t * Like alot developers love create new games</string>
     <string name="github_frag_subtitle">Experieance: about 3 mounths</string>
-    <string name="github_frag_explain">Not using alot, becouse usaly I work alone, but realy want to know and learn about it doing things
-    \n \t * Know how to push or clone projects \n \t * Stuff about merge conflicts not so big problem to me \n \t * I think you can
-    help me with biger projects ....</string>
+    <string name="github_frag_explain">Not using alot, becouse usaly I work alone, but realy want to know and learn about it doing things \\n\\t* Know how to push or clone projects \\n\\t* Stuff about merge conflicts not so big problem to me \\n\\t* I think you can help me with biger projects....</string>
 
     <string name="about_me_item_one_title">What I am DOING right now?</string>
     <string name="about_me_item_one_text">I am currently studying VIKO EIF Smart Equipment Technologies. In my free time (and not only) learning to develop Android applications.</string>

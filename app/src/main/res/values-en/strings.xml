@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyPersonalCvV2</string>
-    <string name="about_me_item_five_text">I think I have enough potential to be useful. If you invest in me, I can promise to be the best for you, stay and grow with you.</string>
+    <string name="about_me_item_five_text">I think I have enough potential to be useful for you. If you invested in me, I can promise to do my best, stay and grow with you.</string>
     <string name="about_me_item_five_title">What I can OFFER</string>
     <string name="nav_experience">Experience</string>
     <string name="nav_header_second_text">Android Applications Developer</string>
@@ -9,12 +9,12 @@
     <string name="nav_phone_number">Phone Number</string>
     <string name="title_activity_knowledge">Knowledge</string>
     <string name="info_email">My Email:</string>
-    <string name="unity_frag_explain">I using Unity not alot, but having fun when I do games with it. I know how animations works, wath is coliders,</string>
-    <string name="unity_frag_subtitle">Experience: about 1 year. Madaded games: 4( one fully accsesible in play store</string>
-    <string name="visual_frag_explain">" "</string>
-    <string name="visual_frag_subtitle">" "</string>
-    <string name="start_second_question">Where You can find all information?</string>
-    <string name="start_second_explain">Evrything else you can find in Meniu section</string>
+    <string name="unity_frag_explain">I use Unity quite rarely, but I enjoy making games with it. I know how animations work, what are coliders. I know how to write scripts and basically make the game work. \n \t * I have done one app with full Google Games Service \n \t * Also I have worked with Vuforia plugin and made fun VR shooter game \n \t * Of course, like many developers I love creating new games</string>
+    <string name="unity_frag_subtitle">Experience: about 9 months. Made games: 4 (one is fully available in Google Play Store)</string>
+    <string name="visual_frag_explain">"I have some knowledge of it because C# was my first Object Oriented programming language. I enjoy using Visual Studio as well as this language and I actually find it easy.  \n \t * I have real work experience with it \n \t * I know about:  \n \t    .NET \n \t    ASP.NET \n \t    MVC pattern "</string>
+    <string name="visual_frag_subtitle">Experience about 1 year. Made 5 applications (not published, but I could show them in the interview)</string>
+    <string name="start_second_question">Where you can find all the information?</string>
+    <string name="start_second_explain">You can find everything in the Menu section</string>
     <string name="start_button_open">Open Menu</string>
     <string name="phone_button_end_frag">Call me now</string>
     <string name="nav_about_me">About Me</string>
@@ -25,15 +25,15 @@
     <string name="frag_about_me">About Me</string>
     <string name="facebook_button_end_frag">Add me</string>
     <string name="email_button_end_frag">Write now</string>
-    <string name="android_frag_explain">I use Android Studio about 7 months now. Maded some apps witch I can show in interview. Android Studio is strongest my side. And I like it very much.         I know what is layouts, adapters, holders, values files and many more. By theway this app was maded with it.   \t * Know how to use     grandle   \t * Know why I need manifest   \t * Know about difirent screens compability   \t * Now have interested learn use MVVM pattern  \t * Thinking switch to Kotlin one day (Now still using Java)</string>
-    <string name="android_frag_subtitle">Experiance: about 7 months. Made apps: more than 10 (fully completed)</string>
-    <string name="about_me_item_three_title">My WEAKNES</string>
+    <string name="android_frag_explain">I am using Android Studio about 7 months now. I have made some apps which I can show you during the interview. The Android Studio is my strength and I like to use it very much. I know what layouts, adapters, holders, values files are and not only this. By the way, this app was also made with it.  \n \t * I know how to use gradle  \n \t * I understand why I need manifest  \n \t * I know about different screen adaptation  \n  \t * Now I am interested in learning to use MVVM pattern \n \t * I think about switching to Kotlin one day (I am now still using Java)</string>
+    <string name="android_frag_subtitle">Experience: about 7 months.The apps made: more than 10 (fully completed)</string>
+    <string name="about_me_item_three_title">My WEAKNESSES</string>
     <string name="about_me_item_four_title">My GOALS</string>
     <string name="title_end_frag">So, do you decided?</string>
     <string name="title_end_toolbar">So...</string>
-    <string name="explain_end_frag">"I thing you still have questions for me, so you can contact me one of methods below: "</string>
-    <string name="about_me_item_two_text">I always have goals that make me move along. It\'s not terrible to me try out new and unknown things. Not only I think about things, but I try to get them done. Strongest developing side - create Android applications using Android Studio IDE.</string>
-    <string name="about_me_item_two_title">My STRENGHTS</string>
+    <string name="explain_end_frag">"I believe you still have questions for me, so you can contact me with one of methods below: "</string>
+    <string name="about_me_item_two_text">I always create some goals that make me to move forward. I’m not scared of trying out something new and unfamiliar. I am not only creating ideas, I am doing it. My strength at developing: create Android applications using Android Studio IDE.</string>
+    <string name="about_me_item_two_title">My STRENGTHS</string>
     <string name="font_name_qucksand_bold">Quicksand-Bold.otf</string>
     <string name="font_name_qucksand_reg">Quicksand-Regular.otf</string>
     <string name="action_language" translatable="false">Change language...</string>
@@ -43,20 +43,24 @@
     <string name="frags_next">Next</string>
     <string name="frags_previos">Previous</string>
     <string name="start_first_explain">Because I want</string>
-    <string name="start_main_question">Why I writing for you?</string>
+    <string name="start_main_question">Why am I writing for you?</string>
     <string name="start_practice">Practice</string>
     <string name="start_work">Work for You</string>
     <string name="nav_contact_text">Contact me</string>
     <string name="nav_email">My Email</string>
-    <string name="frag_experience_explain">In this section you can find some information my experience</string>
-    <string name="frag_about_me_explain">In this section you can find some information about me</string>
-    <string name="about_me_item_one_text">I am currently studying VIKO EIF Smart Equipment Technologies. In my free time (and not only) learning to develop Android applications.</string>
-    <string name="about_me_item_three_text">I am a little slow. I think this is just a matter of time and experience. I have theoretical knowledge about MVVM, MVC and similar templates, but still difficult to implement them. The weakest part of the creation is React Native.</string>
-    <string name="about_me_item_four_text">Programing and developing aplications is my hobby, so work where I can do those thing is be a great and meaningful, time-consuming, resourceful and up-to-date resource. I hope to be beneficial and to benefit from what is beneficial to everyone. Therefore, my main goal at the moment is meaningful work, perhaps at your company.</string>
-    <string name="about_me_item_six_text">I hope you understand that I\'m not yet a senior programmer, you always can help when you really need it, and let it go ahead with you.</string>
-    <string name="experience_explain_one">I practice at the IoT Teltonika Academy. Runtime - 270 hours. I have proof of this (certificate).</string>
-    <string name="experience_explain_two">While studying I had two internships. Language learning was C #. I also have other theoretical materials about programming (design) templates, program memory, object oriented programing and so on.</string>
-    <string name="experience_explain_three">I Have some experience with Google Play Console, App publishing, Updates.</string>
-    <string name="experience_explain_four">Have some experience with Google Play Games services, one game fully available in Google Play Store</string>
-
+    <string name="frag_experience_explain">In this section you can find the information about my experience</string>
+    <string name="frag_about_me_explain">In this section you can find the information about me</string>
+    <string name="about_me_item_one_text">I am currently studying VIKO EIF Smart Equipment Technologies. In my free time (and not only) I am learning to develop Android applications.</string>
+    <string name="about_me_item_three_text">I may seem a little slow but I think this is just a matter of time and experience. I have theoretical knowledge about MVVM, MVC and similar design patterns, but I still have to deal with difficulties implementing them. The weakest part of my knowledge is React Native.</string>
+    <string name="about_me_item_four_text">Programming and developing applications is my hobby, so the job where I can do these things would be meaningful time investment to me. I hope to be helpful for you and get the advantages from it myself, so it will be beneficial for both sides. Therefore, my main goal at the moment is a pleasant work, perhaps at your company.</string>
+    <string name="about_me_item_six_text">I hope you understand that I am not yet a senior programmer, so I would always appreciate your help. This way we might achieve the perfection.</string>
+    <string name="experience_explain_one">I have practiced at the IoT Teltonika Academy. Runtime - 270 hours. I have proof of it (a certificate).</string>
+    <string name="experience_explain_two">While studying I have had two internships. I have been learning C# language since. I also have the theoretical knowledge about programming, design templates, program memory, Object Oriented Programing (OOP) and a lot more.</string>
+    <string name="experience_explain_three">I have some experience with Google Play Console, App publishing, Updates.</string>
+    <string name="experience_explain_four">I have some experience with Google Play Games services. One of the games is already available in Google Play Store</string>
+    <string name="github_frag_subtitle">Experience: about 3 months</string>
+    <string name="github_frag_explain">I am not using it a lot, because usually I work alone, but I would undoubtedly use an opportunity to work on bigger projects.\n \t* I know how to push or clone projects \n \t* I do not face the difficulties with merging conflicts. \n \t* That is why I believe you could help me with bigger projects....</string>
+    <string name="react_frag_subtitle">Experience: about 2 months. This is still quite new to me.</string>
+    <string name="react_frag_explain">I am new at this JavaScript framework but I am surely excited to learn it and to know the basic structure of a project. \n \t * I might seems slow, but I get things done \n \t * I know how to use NPM \n \t * I would like to learn it</string>
 </resources>
+
