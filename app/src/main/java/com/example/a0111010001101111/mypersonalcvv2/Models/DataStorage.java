@@ -48,15 +48,15 @@ public class DataStorage {
 
     public List<ExperienceItemObjet> getExperienceList() {
         experienceList = new ArrayList<ExperienceItemObjet>();
-        experienceList.add(new ExperienceItemObjet(1,context.getString(R.string.experience_title_one),
-                context.getString(R.string.experience_explain_one), R.drawable.teltonika));
+
         experienceList.add(new ExperienceItemObjet(2,context.getString(R.string.experience_title_two),
                 context.getString(R.string.experience_explain_two), R.drawable.studijos));
-        experienceList.add(new ExperienceItemObjet(3,context.getString(R.string.experience_title_three),
-                context.getString(R.string.experience_explain_three), R.drawable.google_play_serv));
         experienceList.add(new ExperienceItemObjet(4,context.getString(R.string.experience_title_four),
                 context.getString(R.string.experience_explain_four), R.drawable.google_play_games));
-
+        experienceList.add(new ExperienceItemObjet(1,context.getString(R.string.experience_title_one),
+                context.getString(R.string.experience_explain_one), R.drawable.teltonika));
+        experienceList.add(new ExperienceItemObjet(3,context.getString(R.string.experience_title_three),
+                context.getString(R.string.experience_explain_three), R.drawable.google_play_serv));
         return experienceList;
     }
 

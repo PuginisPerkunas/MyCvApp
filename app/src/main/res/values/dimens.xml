@@ -8,8 +8,8 @@
     <dimen name="frag_knowledge_title">24sp</dimen>
     <dimen name="frag_knowledge_sub">16sp</dimen>
     <dimen name="frag_knowledge_explain">14sp</dimen>
-    <dimen name="frag_experience_title">34sp</dimen>
-    <dimen name="frag_experience_sub">26sp</dimen>
+    <dimen name="frag_experience_title">26sp</dimen>
+    <dimen name="frag_experience_sub">18sp</dimen>
     <dimen name="frag_end_title">24sp</dimen>
     <dimen name="frag_end_explain">16sp</dimen>
     <dimen name="frag_end_card_img_h">22dp</dimen>

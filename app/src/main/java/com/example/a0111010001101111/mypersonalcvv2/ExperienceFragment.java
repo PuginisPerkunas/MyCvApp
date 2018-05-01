@@ -14,6 +14,9 @@ import android.widget.TextView;
 import com.example.a0111010001101111.mypersonalcvv2.Adapters.ExperienceAdapter;
 import com.example.a0111010001101111.mypersonalcvv2.Models.DataStorage;
 import com.example.a0111010001101111.mypersonalcvv2.Models.ExperienceItemObjet;
+import com.gtomato.android.ui.transformer.CoverFlowViewTransformer;
+import com.gtomato.android.ui.transformer.FlatMerryGoRoundTransformer;
+import com.gtomato.android.ui.widget.CarouselView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,15 +30,16 @@ public class ExperienceFragment extends Fragment {
     View view;
     TextView fragmentTitle, fragmentExplain;
 
-    private RecyclerView recyclerView;
+
     private ExperienceAdapter experienceAdapter;
-    private LinearLayoutManager layoutManager;
+
     private Context context;
     private DataStorage dataStorage;
+    CarouselView carousel;
 
 
     public ExperienceFragment() {
-        // Required empty public constructor
+
     }
 
 
@@ -55,14 +59,14 @@ public class ExperienceFragment extends Fragment {
         dataStorage = new DataStorage(context);
         fragmentTitle = (TextView) view.findViewById(R.id.experience_sec_text);
         fragmentExplain = (TextView) view.findViewById(R.id.experience_sec_explain);
-        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view_experience);
-        layoutManager = new LinearLayoutManager(context);
-        recyclerView.setLayoutManager(layoutManager);
+        carousel = (CarouselView) view.findViewById(R.id.carousel);
     }
 
     private void setFactorys(){
         fragmentTitle.setTypeface(dataStorage.getFontBold());
         fragmentExplain.setTypeface(dataStorage.getFontRegular());
+        carousel.setTransformer(new FlatMerryGoRoundTransformer());
+        carousel.setInfinite(true);
     }
 
     private void bindList(){
@@ -70,7 +74,7 @@ public class ExperienceFragment extends Fragment {
         post = dataStorage.getExperienceList();
 
         experienceAdapter = new ExperienceAdapter(context,post);
-        recyclerView.setAdapter(experienceAdapter);
+        carousel.setAdapter(experienceAdapter);
     }
 
 

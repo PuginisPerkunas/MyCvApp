@@ -39,7 +39,7 @@ public class ExperienceAdapter extends RecyclerView.Adapter<ExperienceHolder> {
     public void onBindViewHolder(ExperienceHolder holder, int position) {
         holder.titleTxt.setText(itemsList.get(position).getTitle());
         holder.sectonTxt.setText(itemsList.get(position).getSectionText());
-        Picasso.with(context).load(itemsList.get(position).getImageName()).into(holder.imageExp);
+       // Picasso.with(context).load(itemsList.get(position).getImageName()).into(holder.imageExp);
     }
 
     @Override

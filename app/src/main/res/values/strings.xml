@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyPersonalCvV2</string>
+    <string name="app_name">Cv_app_Tomas_Skarnulis</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>

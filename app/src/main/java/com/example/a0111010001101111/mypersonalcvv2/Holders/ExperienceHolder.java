@@ -31,7 +31,7 @@ public class ExperienceHolder extends RecyclerView.ViewHolder implements View.On
         dataStorage = new DataStorage(context);
         titleTxt = (TextView) itemView.findViewById(R.id.title_text);
         sectonTxt = (TextView) itemView.findViewById(R.id.section_text);
-        imageExp = (ImageView) itemView.findViewById(R.id.image_experieance);
+        //imageExp = (ImageView) itemView.findViewById(R.id.image_experieance);
 
         titleTxt.setTypeface(dataStorage.getFontBold());
         sectonTxt.setTypeface(dataStorage.getFontBold());

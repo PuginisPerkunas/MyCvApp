@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.a0111010001101111.mypersonalcvv2"
+        applicationId "com.a0111010001101111.cvAppTomasSkarnulis"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -32,10 +32,13 @@ dependencies {
     compile 'com.android.support:design:26.+'
     compile 'com.android.support:support-v4:26.+'
     compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.azoft.carousellayoutmanager:carousel:1.2.1'
+    compile 'com.gtomato.android.library:carouselview:2.0.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.dynamitechetan.flowinggradient:flowinggradient:1.1'
     compile 'com.github.2359media:EasyAndroidAnimations:0.8'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.azoft.carousellayoutmanager:carousel:1.2.1'
 
     testCompile 'junit:junit:4.12'
 }

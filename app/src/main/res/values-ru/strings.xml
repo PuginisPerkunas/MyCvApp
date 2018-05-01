@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyPersonalCvV2</string>
+    <string name="app_name">Cv_app_Tomas_Skarnulis</string>
     <string name="about_me_item_five_text">Я думаю, что у меня есть достаточно опыта и знаний, чтобы быть полезным сотрудникам. Я уверяю что буду трудится и расти вместе с вами</string>
     <string name="about_me_item_five_title">Что я могу предложить</string>
     <string name="nav_experience">Опыт</string>
@@ -33,7 +33,7 @@
     <string name="about_me_item_two_title">Mои сильные стороны</string>
     <string name="font_name_qucksand_bold">rus_bold.otf</string>
     <string name="font_name_qucksand_reg">rus_reg.otf</string>
-    <string name="action_language" translatable="false">Изменение языка...</string>
+    <string name="action_language" translatable="true">Изменение языка...</string>
     <string name="about_me_item_one_title">Чем я сейчас занимаюсь?</string>
     <string name="about_me_item_six_title">Чего я ОЖИДАЮ</string>
     <string name="experience_title_two">Опыт</string>
